@@ -16,7 +16,7 @@ if [ "$var" == "running" ]
 	then
 		echo "Maelstrom is now up and running."
 	else
-mail -s "Maelstrom is down in ${hostname}" "sobioma@conversantmedia.com" <<< "/opt/dotomi/logs/maelstrom/maelstrom.log and /opt/dotomi/maelstrom/maelstrom.console needs to be checked for errors. If there are errors that can be resolved, we need to resolve it. If nnot, we have to create a NOC ticket, send and email to cnvr_maelstrom_alerting@conversantmedia.com and call the Maelstrom on-call engineer."
+mail -s "Maelstrom is down in ${hostname}" "stephenobioma@yahoo.com" <<< "/opt/dotomi/logs/maelstrom/maelstrom.log and /opt/dotomi/maelstrom/maelstrom.console needs to be checked for errors. If there are errors that can be resolved, we need to resolve it. If not, we have to create a NOC ticket, send and email to cnvr_maelstrom_alerting@conversantmedia.com and call the Maelstrom on-call engineer."
 	fi
 fi
 
